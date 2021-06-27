@@ -89,4 +89,44 @@ module.exports = [
       { text: '归档', link: '/archives/' },
     ],
   },
+  {
+    text: '后端',
+    link: '/backend/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    items: [
+      // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
+      {
+        text: '后端文章',
+        items: [
+          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+        //   { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
+        ],
+      },
+      {
+        text: '学习笔记',
+        items: [
+          { text: '《Go》笔记', link: '/note/go/' },
+        //   { text: '《JavaScript高级程序设计》笔记', link: '/note/js/' },
+        //   { text: '《ES6 教程》笔记', link: '/note/es6/' },
+        //   { text: '《Vue》笔记', link: '/note/vue/' },
+        //   { text: '《React》笔记', link: '/note/react/' },
+        //   {
+        //     text: '《TypeScript 从零实现 axios》',
+        //     link: '/note/typescript-axios/',
+        //   },
+        //   {
+        //     text: '《Git》学习笔记',
+        //     link: '/note/git/',
+        //   },
+        //   {
+        //     text: 'TypeScript笔记',
+        //     link: '/pages/51afd6/',
+        //   },
+        //   {
+        //     text: 'JS设计模式总结笔记',
+        //     link: '/pages/4643cd/',
+        //   },
+        ],
+      },
+    ],
+  }
 ]
