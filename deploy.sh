@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-npm run build
+yarn docs:build
 
 # 进入生成的文件夹
 cd docs/.vuepress/dist
@@ -21,10 +21,10 @@ if [ -z "$GITHUB_TOKEN" ]; then
 else
   msg='来自github actions的自动部署'
 #  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
-   githubUrl= https://${GITHUB_TOKEN}@github.com/chenhaipeng/chenhaipeng.github.io.git
+   githubUrl=https://${GITHUB_TOKEN}@github.com/chenhaipeng/chenhaipeng.github.io.git
 
-  git config --global user.name "lost"
-  git config --global user.email "369161356@qq.com"
+#  git config --global user.name "lost"
+#  git config --global user.email "369161356@qq.com"
 fi
 git init
 git add -A
@@ -45,4 +45,4 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 # git push -f $codingUrl master # 推送到coding
 
 cd -
-rm -rf docs/.vuepress/dist
+#rm -rf docs/.vuepress/dist
