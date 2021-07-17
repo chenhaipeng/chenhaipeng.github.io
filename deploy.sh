@@ -22,7 +22,7 @@ else
   msg='来自github actions的自动部署'
 #  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/vuepress-theme-vdoing.git
    githubUrl=https://${GITHUB_TOKEN}@github.com/chenhaipeng/chenhaipeng.github.io.git
-   git config --global user.name "lost"
+   git config --global user.name "Hiper"
    git config --global user.email "369161356@qq.com"
 fi
 git init
