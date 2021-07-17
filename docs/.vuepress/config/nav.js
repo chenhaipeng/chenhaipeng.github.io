@@ -88,7 +88,7 @@ module.exports = [
       {
         text: '后端文章',
         items: [
-          { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
+          { text: 'Java', link: '/pages/a30055/' },
           //   { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
         ],
       },
