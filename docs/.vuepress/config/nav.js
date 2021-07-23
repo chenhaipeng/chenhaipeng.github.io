@@ -18,7 +18,18 @@ module.exports = [
           { text: '《Go》学习笔记', link: '/note/go/' },
         ],
       },
-      
+    ],
+  },
+  {
+    text: '效率工具',
+    link: '/tools/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    items: [
+      {
+        text: '学习笔记',
+        items: [
+          { text: '《Git》学习笔记', link: '/note/git/' },
+        ],
+      },
     ],
   },
   {
