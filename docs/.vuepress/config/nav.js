@@ -33,6 +33,30 @@ module.exports = [
     ],
   },
   {
+    text: '云原生',
+    link: '/cloud/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    items: [
+      {
+        text: '云原生文章',
+        items: [
+          { text: 'docker', link: '/pages/2e4348/' },
+        ],
+      },
+    ],
+  },
+  {
+    text: '开源协同',
+    link: '/opensource/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
+    items: [
+      {
+        text: '项目',
+        items: [
+          { text: 'skywalking', link: '/note/skywalking/' },
+        ],
+      },
+    ],
+  },
+  {
     text: '效率工具',
     link: '/tools/', //目录页链接，此处link是vdoing主题新增的配置项，有二级导航时，可以点击一级导航跳到目录页
     items: [
