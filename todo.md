@@ -18,3 +18,7 @@
 
 - [ ] skywalking 的角色控制
 
+- [ ] linux 常用命令
+
+- [ ] https://yeasy.gitbook.io/docker_practice/image/dockerfile/entrypoint docker 知识回顾
+
