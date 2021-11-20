@@ -1,6 +1,6 @@
 ### TODO
 
-#### 202109
+### 202110
 
 - [x] [单元测试](https://www.cnblogs.com/Ming8006/p/6297333.html ) junit 、mockito、springbootTest https://github.com/chenhaipeng/java-training
 
@@ -21,4 +21,13 @@
 - [ ] linux 常用命令
 
 - [ ] https://yeasy.gitbook.io/docker_practice/image/dockerfile/entrypoint docker 知识回顾
+
+
+
+## 进度
+
+### k8s
+- [ ] k8s 基本知识
+
+  
 
