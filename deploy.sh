@@ -11,7 +11,8 @@ cd docs/.vuepress/dist
 
 # deploy to github pages
 #echo 'b.xugaoyi.com' > CNAME
-echo 'www.maincode.icu' > CNAME
+#没钱
+#echo 'www.maincode.icu' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
