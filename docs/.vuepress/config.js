@@ -12,9 +12,15 @@ module.exports = {
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
   markdown: {
     lineNumbers: true, // 代码行号
+    extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ] //修改提取出的标题级别
   },
 
   head,
   plugins,
-  themeConfig,
+  themeConfig: {
+      repo: 'https://github.com/chenhaipeng', // Github仓库地址
+      docsDir: 'docs', // .md文件放在了docs目录下
+      editLinks: true, // 启用编辑链接
+      editLinkText: '编辑',
+  }
 }
